@@ -328,7 +328,7 @@ This project demonstrates autonomous AI orchestration, semantic reasoning, runti
 
 # Author
 
-## K Bhaskar
+## Bhaskar Kommu
 
 AI Engineer | .NET Developer | Autonomous Systems Builder
 
