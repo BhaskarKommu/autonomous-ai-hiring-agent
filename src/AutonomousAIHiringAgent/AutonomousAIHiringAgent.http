@@ -1,0 +1,6 @@
+@AutonomousAIHiringAgent_HostAddress = http://localhost:5175
+
+GET {{AutonomousAIHiringAgent_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
