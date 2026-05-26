@@ -1,13 +1,12 @@
-﻿namespace AutonomousAIHiringAgent.Skills;
+﻿using AutonomousAIHiringAgent.Interfaces;
+
+namespace AutonomousAIHiringAgent.Skills;
 
 /// <summary>
 /// Selects reusable runtime skills.
 /// </summary>
-public class SkillEngine
+public class SkillEngine : ISkillEngine
 {
-    /// <summary>
-    /// Select skills based on planner result.
-    /// </summary>
     public List<string> SelectSkills(string plannerResult)
     {
         var skills = new List<string>();

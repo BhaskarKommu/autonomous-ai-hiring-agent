@@ -1,13 +1,12 @@
-﻿namespace AutonomousAIHiringAgent.Reflection;
+﻿using AutonomousAIHiringAgent.Interfaces;
+
+namespace AutonomousAIHiringAgent.Reflection;
 
 /// <summary>
 /// Evaluates workflow quality.
 /// </summary>
-public class ReflectionService
+public class ReflectionService : IReflectionService
 {
-    /// <summary>
-    /// Analyze execution quality.
-    /// </summary>
     public string Reflect(string executionResult)
     {
         if (executionResult.Contains("ranked"))

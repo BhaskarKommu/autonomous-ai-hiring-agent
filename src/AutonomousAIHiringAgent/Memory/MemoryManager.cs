@@ -1,13 +1,12 @@
-﻿namespace AutonomousAIHiringAgent.Memory;
+﻿using AutonomousAIHiringAgent.Interfaces;
+
+namespace AutonomousAIHiringAgent.Memory;
 
 /// <summary>
-/// Stores runtime learning and preferences.
+/// Stores runtime memory and learning.
 /// </summary>
-public class MemoryManager
+public class MemoryManager : IMemoryManager
 {
-    /// <summary>
-    /// Simulated memory persistence.
-    /// </summary>
     public string SaveMemory(string request)
     {
         if (request.ToLower().Contains("backend"))

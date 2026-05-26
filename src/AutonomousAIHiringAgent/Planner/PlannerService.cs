@@ -1,19 +1,18 @@
-﻿namespace AutonomousAIHiringAgent.Planner;
+﻿using AutonomousAIHiringAgent.Interfaces;
+
+namespace AutonomousAIHiringAgent.Planner;
 
 /// <summary>
 /// Responsible for analyzing user intent
-/// and selecting runtime workflows.
+/// and selecting workflows.
 /// </summary>
-public class PlannerService
+public class PlannerService : IPlannerService
 {
     /// <summary>
-    /// Analyze user request.
+    /// Analyze incoming request.
     /// </summary>
     public string AnalyzeIntent(string request)
     {
-        // Simple MVP logic.
-        // Later this can become AI-powered.
-
         if (request.ToLower().Contains("engineer"))
         {
             return "Hiring workflow detected";

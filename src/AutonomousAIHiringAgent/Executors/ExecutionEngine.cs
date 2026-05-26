@@ -1,17 +1,14 @@
-﻿namespace AutonomousAIHiringAgent.Executors;
+﻿using AutonomousAIHiringAgent.Interfaces;
+
+namespace AutonomousAIHiringAgent.Executors;
 
 /// <summary>
 /// Executes runtime actions.
 /// </summary>
-public class ExecutionEngine
+public class ExecutionEngine : IExecutionEngine
 {
-    /// <summary>
-    /// Simulated execution pipeline.
-    /// </summary>
     public string Execute(List<string> skills)
     {
-        // Simulated semantic search + ranking.
-
         if (skills.Contains("SemanticSearchSkill"))
         {
             return "3 candidates retrieved and ranked";
