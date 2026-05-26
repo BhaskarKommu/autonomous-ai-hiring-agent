@@ -234,11 +234,13 @@ POST /api/runtime/execute
 
 ## Runtime Logs
 
-Add telemetry screenshots here.
+<img width="1165" height="714" alt="image" src="https://github.com/user-attachments/assets/54647cef-082d-4d33-9b12-8819a449e1e8" />
+
 
 ## Candidate Retrieval
 
-Add semantic search screenshots here.
+ <img width="1155" height="353" alt="image" src="https://github.com/user-attachments/assets/bb48f3b8-a303-4442-8043-7bbdf063365d" />
+
 
 ---
 
