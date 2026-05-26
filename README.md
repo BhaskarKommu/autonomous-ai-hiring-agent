@@ -229,7 +229,8 @@ POST /api/runtime/execute
 
 ## Runtime Dashboard
 
-Add screenshots here.
+<img width="1199" height="409" alt="image" src="https://github.com/user-attachments/assets/18ae18c8-e8fa-4479-8d5e-ab25986113fa" />
+
 
 ## Runtime Logs
 
@@ -246,7 +247,7 @@ Add semantic search screenshots here.
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/autonomous-ai-hiring-agent.git
+git clone https://github.com/BhaskarKommu/autonomous-ai-hiring-agent.git
 ```
 
 ---
